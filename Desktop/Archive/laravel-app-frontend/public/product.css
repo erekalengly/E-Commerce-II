@@ -1,0 +1,118 @@
+main{
+    margin-bottom: 40px;
+}
+
+main h2{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+main .even-col{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+main .even-col image{
+    flex: 1;
+}
+
+main .even-col .box{
+    flex: 5;
+    background-color: #FFA9D0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .even-col .box h4{
+    margin-bottom: 30px;
+    color: rgb(47, 47, 130);
+    font-size: 22px;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  a{
+    color: black;
+  }
+  
+  header {
+    height: 80px;
+    width: 100%;
+    background: #FFA9D0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 10px;
+  }
+  
+  header > *{
+    width: fit-content;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    font-weight: 400;
+  }
+  
+  header ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  header ul li {
+    white-space: nowrap;
+    gap: 20px;
+  }
+  
+  header .icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  header .icon i{
+    width: 20px ;
+    height: 20px;
+  }
+  
+  
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffc1e1;
+    padding: 40px 20px;
+  }
+  footer .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    flex-direction: column;
+    padding: 0 40px;
+  }
+  footer .text h2{
+    font-size: 20px;
+  }
+  footer .link{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #ed7c7e;
+    gap: 60px;
+    
+  }
